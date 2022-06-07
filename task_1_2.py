@@ -33,5 +33,5 @@ count_4=[]
 for i in count_3:
     if i%7==0:
         count_4.append(i)
-# print(count_4)
+#print(count_4)
 print(sum(count_4))
