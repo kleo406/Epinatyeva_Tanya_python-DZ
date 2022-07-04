@@ -1,4 +1,4 @@
-# Задача 2 а)
+# Задача 2 а).
 count=list(range(1,1000,2))
 count_1=[]
 for i in count:
