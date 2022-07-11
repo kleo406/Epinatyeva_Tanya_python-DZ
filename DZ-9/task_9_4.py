@@ -1,10 +1,8 @@
 from enum import Enum
 
-
 class TURN(Enum):
     LEFT = 0
     RIGHT = 1
-
 
 class Car:
     speed: float
@@ -49,7 +47,6 @@ class SportCar(Car):
     def __init__(self, colour, name) -> None:
         super().__init__(colour, name)
 
-
 class WorkCar(Car):
 
     def __init__(self, colour, name) -> None:
@@ -63,13 +60,11 @@ class WorkCar(Car):
 
         return spd
 
-
 class PoliceCar(Car):
 
     def __init__(self, colour, name) -> None:
         super().__init__(colour, name)
         self._is_police = True
-
 
 if __name__ == "__main__":
     abstract_car = Car("Transparent", "SomeCar")

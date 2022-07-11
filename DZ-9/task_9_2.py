@@ -9,7 +9,6 @@ class Road:
     def calc(self, density: float, thickness: float) -> float:
         return self._length * self._width * density * thickness
 
-
 if __name__ == "__main__":
     road = Road(length=20, width=5000)
     print(road.calc(25, 5))
